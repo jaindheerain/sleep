@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Sleeping8</string>
+    <string name="signupDis">Book all emerging and established artists
+                            such as DJ/Producers,Bands,
+                            Instrumentalist,Vocalists,
+                          Standup Comedians instantly.</string>
+    <string name="login">Login</string>
+    <string name="signup">SignUp</string>
+</resources>

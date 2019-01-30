@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:weightSum="1"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/backgroudGrey"
+    tools:context=".splash.SplashScreen">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:scaleX="1.5"
+        android:src="@drawable/about_us_background_app"></ImageView>
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="170dp"
+        android:layout_height="90dp"
+        android:background="@drawable/logo"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="15dp"
+        android:textSize="18sp"
+        android:textColor="@color/cyan"
+        android:layout_gravity="center"
+        android:layout_weight="0.05"
+        android:text="Book Artist Instantly"/>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="15dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_weight="0.2"
+        android:text="@string/signupDis"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.05"></View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.07">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="@drawable/outline_button"
+            android:layout_weight="0.5"
+            android:id="@+id/login"
+            android:text="@string/login"
+            android:textStyle="bold" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:textStyle="bold"
+            android:background="@drawable/outline_button"
+            android:text="@string/signup"
+            android:layout_margin="5dp"
+            android:layout_height="match_parent"
+            android:id="@+id/signup"/>
+    </LinearLayout>
+
+</LinearLayout>
